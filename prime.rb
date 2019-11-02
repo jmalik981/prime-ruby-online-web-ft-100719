@@ -1,4 +1,7 @@
 # Add  code here!
+
+ #expect(prime?(0)).to be(false)
+#    expect(prime?(1)).to be(false)
 def prime?(num)
   if num < 0 or num == 0 or num == 1
     return false
